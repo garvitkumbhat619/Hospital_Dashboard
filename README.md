@@ -1,27 +1,10 @@
-# 🏥 Hospital Data Analytics Dashboard
+#  Hospital Data Analytics Dashboard
 
 > An end-to-end hospital management analytics system built with **Power BI** and **MySQL**, delivering insights across patient care, operations, finance, inventory, and staff performance through **5 interactive dashboards**.
 
 ---
 
-## 📌 Table of Contents
-
-- [Project Overview](#project-overview)
-- [Tech Stack](#tech-stack)
-- [Database Schema](#database-schema)
-- [Dashboards & Screenshots](#dashboards--screenshots)
-- [KPIs & Metrics](#kpis--metrics)
-- [Summary of Findings](#summary-of-findings)
-- [Key Questions Explored](#key-questions-explored)
-- [Data Model](#data-model)
-- [SQL Views](#sql-views)
-- [Setup & Installation](#setup--installation)
-- [Project Structure](#project-structure)
-- [Future Enhancements](#future-enhancements)
-
----
-
-## 📋 Project Overview
+##  Project Overview
 
 This project transforms raw hospital operational data from MySQL into interactive Power BI dashboards, giving hospital management real-time visibility into patient care, staff performance, room utilization, billing, and inventory — all in one place.
 
@@ -39,7 +22,7 @@ This project transforms raw hospital operational data from MySQL into interactiv
 
 ---
 
-## 🗄 Database Schema
+##  Database Schema
 
 ### Patient & Clinical
 

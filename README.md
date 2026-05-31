@@ -52,49 +52,19 @@ This project transforms raw hospital operational data from MySQL into interactiv
 
 ---
 
-## 📊 Dashboards & Screenshots
-
-### 1. 🧑‍⚕️ Patient Overview Dashboard
-360° view of admissions, demographics, discharge trends, and satisfaction.
+##  Dashboards & Screenshots
 
 <!-- Add screenshot below -->
-![Patient Overview Dashboard](screenshots/patient_overview.png)
+![image](https://github.com/garvitkumbhat619/Hospital_Dashboard/blob/main/Dashboard%20snaps/Screenshot%202025-09-21%20052930.png)
+![image](https://github.com/garvitkumbhat619/Hospital_Dashboard/blob/main/Dashboard%20snaps/Screenshot%202025-09-21%20052943.png)
+![image](https://github.com/garvitkumbhat619/Hospital_Dashboard/blob/main/Dashboard%20snaps/Screenshot%202025-09-21%20193410.png)
+![image](https://github.com/garvitkumbhat619/Hospital_Dashboard/blob/main/Dashboard%20snaps/Screenshot%202025-09-21%20053052.png)
+![image](https://github.com/garvitkumbhat619/Hospital_Dashboard/blob/main/Dashboard%20snaps/Screenshot%202025-09-21%20053103.png)
+![image](https://github.com/garvitkumbhat619/Hospital_Dashboard/blob/main/Dashboard%20snaps/Screenshot%202025-09-21%20053124.png)
 
 ---
 
-### 2. 👨‍⚕️ Doctor & Department Performance Dashboard
-Doctor workload, specialization coverage, departmental staffing, and experience analysis.
-
-<!-- Add screenshot below -->
-![Doctor & Department Dashboard](screenshots/doctor_department.png)
-
----
-
-### 3. 🛏 Bed & Room Occupancy Dashboard
-Capacity planning, room type utilization, occupancy rates, and maintenance vs. revenue.
-
-<!-- Add screenshot below -->
-![Bed & Room Occupancy Dashboard](screenshots/bed_room_occupancy.png)
-
----
-
-### 4. 💊 Medical Stock & Inventory Dashboard
-Inventory health, expiry alerts, stock-below-reorder flags, and supplier analysis.
-
-<!-- Add screenshot below -->
-![Medical Stock Dashboard](screenshots/medical_stock.png)
-
----
-
-### 5. 💰 Billing & Financial Dashboard
-Revenue breakdown, payment status, charge-type distribution, and outstanding receivables.
-
-<!-- Add screenshot below -->
-![Billing & Financial Dashboard](screenshots/billing_financial.png)
-
----
-
-## 📐 KPIs & Metrics
+##  KPIs & Metrics
 
 ### Patient
 | KPI | Formula / Source |
@@ -132,7 +102,7 @@ Revenue breakdown, payment status, charge-type distribution, and outstanding rec
 
 ---
 
-## 📈 Summary of Findings
+##  Summary of Findings
 
 - **Discharge trends** show consistent monthly patterns with seasonal variations, enabling proactive capacity planning.
 - **Surgery charges** are the dominant revenue source, consistently outpacing room, medicine, test, and doctor fee categories.
@@ -147,7 +117,7 @@ Revenue breakdown, payment status, charge-type distribution, and outstanding rec
 
 ---
 
-## ❓ Key Questions Explored
+##  Key Questions Explored
 
 | # | Question |
 |---|---|
@@ -164,7 +134,7 @@ Revenue breakdown, payment status, charge-type distribution, and outstanding rec
 
 ---
 
-## 🔗 Data Model
+##  Data Model
 
 Power BI star schema with `patient` as the central hub:
 
@@ -239,26 +209,5 @@ hospital-analytics-dashboard/
 │   └── billing_financial.png
 └── README.md
 ```
-
----
-
-## 🚀 Future Enhancements
-
-- [ ] **Predictive Analytics** — Forecast admission surges and bed demand
-- [ ] **Real-time Refresh** — DirectQuery via Power BI Gateway
-- [ ] **Row-Level Security (RLS)** — Role-based access for doctors, admins, and finance
-- [ ] **Lab & Diagnostics Dashboard** — Resolve "Blank" test results; track turnaround times
-- [ ] **Automated Alerts** — Low stock, expiring medicines, and pending payment notifications
-- [ ] **Mobile Layout** — Optimized Power BI mobile view for on-the-go management
-
----
-
-## 👤 Author
-
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-
----
 
 > *Built to bring data-driven decision making to healthcare.*
